@@ -1,0 +1,14 @@
+/*Universal selector*/
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img[alt="logo"] {
+    width: 20rem;
+}
+body{
+    text-align: center;
+}
